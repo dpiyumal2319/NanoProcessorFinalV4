@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun May  5 17:35:38 2024
+# Process ID: 19212
+# Current directory: D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13732 D:\sem2\DigitalDesign\NanoProcessor Submissions\NanoProcessorFinalV4\NanoProcessorFinalV4.xpr
+# Log file: D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/vivado.log
+# Journal file: D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/NanoProcessorFinalV4.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+report_utilization -file {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/ResourceUtilixation.txt} -name ResourceUtilixation
+file copy -force {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/NanoProcessorFinalV4.runs/impl_1/PROCESSOR.bit} {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/NanoProcessorFinal.bit}

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1714910912">
+  <File Type="PA-TCL" Name="PROCESSOR.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="PROCESSOR_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="PROCESSOR_reports.tcl"/>
+  <File Type="RDS-RDS" Name="PROCESSOR.vds"/>
+  <File Type="RDS-UTIL" Name="PROCESSOR_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="PROCESSOR_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="PROCESSOR.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="PROCESSOR_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="PROCESSOR_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/Adders/AddSubUnit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/Adders/AddSubUnit.vhd"/>
+        <Attr Name="ImportTime" Val="1713938523"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/regbank/Decoder_2_to_4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/regbank/Decoder_2_to_4.vhd"/>
+        <Attr Name="ImportTime" Val="1713108410"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/regbank/Decoder_3_to_8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/regbank/Decoder_3_to_8.vhd"/>
+        <Attr Name="ImportTime" Val="1713108410"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/Adders/FA.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/Adders/FA.vhd"/>
+        <Attr Name="ImportTime" Val="1707816806"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/Adders/HA.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/Adders/HA.vhd"/>
+        <Attr Name="ImportTime" Val="1707814000"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/InstructionDecoder/InstructionDecoder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/InstructionDecoder/InstructionDecoder.vhd"/>
+        <Attr Name="ImportTime" Val="1713815040"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/SevenSegmentDriver/LUT_Address.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/SevenSegmentDriver/LUT_Address.vhd"/>
+        <Attr Name="ImportTime" Val="1713991234"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/SevenSegmentDriver/LUT_Digit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/SevenSegmentDriver/LUT_Digit.vhd"/>
+        <Attr Name="ImportTime" Val="1713991168"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/SevenSegmentDriver/LUT_Sign.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/SevenSegmentDriver/LUT_Sign.vhd"/>
+        <Attr Name="ImportTime" Val="1713994212"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/muxes/Mux_2_1_3.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/muxes/Mux_2_1_3.vhd"/>
+        <Attr Name="ImportTime" Val="1713626170"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/muxes/Mux_2_1_4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/muxes/Mux_2_1_4.vhd"/>
+        <Attr Name="ImportTime" Val="1713640176"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/muxes/Mux_8_1_4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/muxes/Mux_8_1_4.vhd"/>
+        <Attr Name="ImportTime" Val="1713640176"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/Adders/PCAdder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/Adders/PCAdder.vhd"/>
+        <Attr Name="ImportTime" Val="1713619412"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/PC/ProgramCounter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/PC/ProgramCounter.vhd"/>
+        <Attr Name="ImportTime" Val="1713729087"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/ROM/Programme_ROM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/ROM/Programme_ROM.vhd"/>
+        <Attr Name="ImportTime" Val="1713964557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/Adders/RCA_4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/Adders/RCA_4.vhd"/>
+        <Attr Name="ImportTime" Val="1713822741"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/regbank/Reg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/regbank/Reg.vhd"/>
+        <Attr Name="ImportTime" Val="1713706444"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/regbank/RegBankv2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/regbank/RegBankv2.vhd"/>
+        <Attr Name="ImportTime" Val="1713821046"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/SevenSegmentDriver/SevenSegDriver.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/SevenSegmentDriver/SevenSegDriver.vhd"/>
+        <Attr Name="ImportTime" Val="1713993999"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/Clk/Slow_Clk.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/Clk/Slow_Clk.vhd"/>
+        <Attr Name="ImportTime" Val="1713963421"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PROCESSOR.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../NanoProcessorV3/NanoProcessorV3.srcs/sources_1/new/PROCESSOR.vhd"/>
+        <Attr Name="ImportTime" Val="1714035815"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="PROCESSOR"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/Basys3Labs.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RISCV2/RISCV2.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc"/>
+        <Attr Name="ImportTime" Val="1713957768"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

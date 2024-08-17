@@ -1,0 +1,27 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/Adders/AddSubUnit.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/regbank/Decoder_2_to_4.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/regbank/Decoder_3_to_8.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/Adders/FA.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/Adders/HA.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/InstructionDecoder/InstructionDecoder.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Address.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Digit.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Sign.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/muxes/Mux_2_1_3.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/muxes/Mux_2_1_4.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/muxes/Mux_8_1_4.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/Adders/PCAdder.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/new/PROCESSOR.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/PC/ProgramCounter.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/ROM/Programme_ROM.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/Adders/RCA_4.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/regbank/Reg.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/SevenSegmentDriver/SevenSegDriver.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sources_1/imports/Sources/Clk/Slow_Clk.vhd" \
+"../../../../NanoProcessorFinalV4.srcs/sim_1/new/TB_PROCESSOR.vhd" \
+
+# Do not sort compile order
+nosort

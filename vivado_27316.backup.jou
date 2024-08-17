@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Apr 26 03:25:14 2024
+# Process ID: 27316
+# Current directory: D:/Xlinix Projects/NanoProcessorFinalV4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11460 D:\Xlinix Projects\NanoProcessorFinalV4\NanoProcessorFinalV4.xpr
+# Log file: D:/Xlinix Projects/NanoProcessorFinalV4/vivado.log
+# Journal file: D:/Xlinix Projects/NanoProcessorFinalV4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Xlinix Projects/NanoProcessorFinalV4/NanoProcessorFinalV4.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {D:/Xlinix Projects/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg}
+source TB_PROCESSOR.tcl
+close_sim

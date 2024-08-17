@@ -1,0 +1,401 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun May  5 18:03:22 2024
+# Process ID: 13828
+# Current directory: D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16232 D:\sem2\DigitalDesign\NanoProcessor Submissions\NanoProcessorFinalV4\NanoProcessorFinalV4.xpr
+# Log file: D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/vivado.log
+# Journal file: D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/NanoProcessorFinalV4.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 932.703 ; gain = 171.359
+update_compile_order -fileset sources_1
+save_project_as NanoProcessorBasicWith7Segment {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment} -force
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Address.vhd}}] -no_script -reset -force -quiet
+remove_files  {{D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Address.vhd}}
+file delete -force {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Address.vhd}
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_PROCESSOR' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_PROCESSOR_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/AddSubUnit.vhd" into library xil_defaultlib
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [VRFC 10-307] analyzing entity AddSubUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/InstructionDecoder/InstructionDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Digit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_Digit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Sign.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_Sign
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_2_1_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_1_3
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_2_1_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_1_4
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_8_1_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_1_4
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/PCAdder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PCAdder
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/PC/ProgramCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/ROM/Programme_ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Programme_ROM
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_PROCESSOR' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_PROCESSOR_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/AddSubUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AddSubUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/InstructionDecoder/InstructionDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Digit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_Digit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Sign.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_Sign
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_2_1_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_1_3
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_2_1_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_1_4
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_8_1_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_1_4
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/PCAdder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PCAdder
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PROCESSOR
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/PC/ProgramCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/ROM/Programme_ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Programme_ROM
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/RCA_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_4
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegBankv2
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/SevenSegDriver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SevenSegDriver
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Clk/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sim_1/new/TB_PROCESSOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_PROCESSOR
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto eabcbbdb57d54158aa77a5bfc8a43931 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_PROCESSOR_behav xil_defaultlib.TB_PROCESSOR -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.InstructionDecoder [instructiondecoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.ProgramCounter [programcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.PCAdder [pcadder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_1_3 [mux_2_1_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegBankv2 [regbankv2_default]
+Compiling architecture behavioral of entity xil_defaultlib.Programme_ROM [programme_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_1_4 [mux_8_1_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit [addsubunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_1_4 [mux_2_1_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_Digit [lut_digit_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_Sign [lut_sign_default]
+Compiling architecture behavioral of entity xil_defaultlib.SevenSegDriver [sevensegdriver_default]
+Compiling architecture behavioral of entity xil_defaultlib.PROCESSOR [processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_processor
+Built simulation snapshot TB_PROCESSOR_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/sem2/DigitalDesign/NanoProcessor -notrace
+couldn't read file "D:/sem2/DigitalDesign/NanoProcessor": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun May  5 18:16:26 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_PROCESSOR_behav -key {Behavioral:sim_1:Functional:TB_PROCESSOR} -tclbatch {TB_PROCESSOR.tcl} -view {{D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+open_wave_config {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg}
+source TB_PROCESSOR.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_PROCESSOR_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 979.891 ; gain = 18.312
+save_wave_config {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg}
+import_files -fileset sim_1 {{D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg}}
+save_wave_config {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg}
+update_files -from_files {{D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg}} -to_files {{D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sim_1/imports/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg}} -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sim_1/imports/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg' with file 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg'.
+INFO: [filemgmt 20-1080] Importing file from 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg' to 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sim_1/imports/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg'.
+save_wave_config {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_PROCESSOR' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_PROCESSOR_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto eabcbbdb57d54158aa77a5bfc8a43931 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_PROCESSOR_behav xil_defaultlib.TB_PROCESSOR -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_PROCESSOR_behav -key {Behavioral:sim_1:Functional:TB_PROCESSOR} -tclbatch {TB_PROCESSOR.tcl} -view {{D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sim_1/imports/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+open_wave_config {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sim_1/imports/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg}
+source TB_PROCESSOR.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_PROCESSOR_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+save_wave_config {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sim_1/imports/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg}
+save_wave_config {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sim_1/imports/NanoProcessorFinalV4/TB_PROCESSOR_Final.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: PROCESSOR
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1362.344 ; gain = 112.625
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'PROCESSOR' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd:45]
+INFO: [Synth 8-3491] module 'InstructionDecoder' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/InstructionDecoder/InstructionDecoder.vhd:4' bound to instance 'Instruction_dec' of component 'InstructionDecoder' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd:163]
+INFO: [Synth 8-638] synthesizing module 'InstructionDecoder' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/InstructionDecoder/InstructionDecoder.vhd:19]
+INFO: [Synth 8-226] default block is never used [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/InstructionDecoder/InstructionDecoder.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'InstructionDecoder' (1#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/InstructionDecoder/InstructionDecoder.vhd:19]
+INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Clk/Slow_Clk.vhd:32' bound to instance 'slow_clock' of component 'Slow_Clk' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd:176]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Clk/Slow_Clk.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (2#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Clk/Slow_Clk.vhd:38]
+INFO: [Synth 8-3491] module 'ProgramCounter' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/PC/ProgramCounter.vhd:34' bound to instance 'pc' of component 'ProgramCounter' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd:181]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/PC/ProgramCounter.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (3#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/PC/ProgramCounter.vhd:41]
+INFO: [Synth 8-3491] module 'PCAdder' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/PCAdder.vhd:34' bound to instance 'PC_Adder' of component 'PCAdder' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd:188]
+INFO: [Synth 8-638] synthesizing module 'PCAdder' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/PCAdder.vhd:40]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/FA.vhd:34' bound to instance 'FA0' of component 'FA' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/PCAdder.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'FA' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/FA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/FA.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'HA' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/HA.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'HA' (4#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/HA.vhd:41]
+INFO: [Synth 8-3491] module 'HA' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/HA.vhd:34' bound to instance 'HA_1' of component 'HA' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/FA.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'FA' (5#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/FA.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/FA.vhd:34' bound to instance 'FA1' of component 'FA' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/PCAdder.vhd:59]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/FA.vhd:34' bound to instance 'FA2' of component 'FA' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/PCAdder.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'PCAdder' (6#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/PCAdder.vhd:40]
+INFO: [Synth 8-3491] module 'Mux_2_1_3' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_2_1_3.vhd:34' bound to instance 'mux_2_to_3' of component 'Mux_2_1_3' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd:194]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_1_3' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_2_1_3.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_1_3' (7#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_2_1_3.vhd:41]
+INFO: [Synth 8-3491] module 'RegBankv2' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd:32' bound to instance 'reg_bank' of component 'RegBankv2' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd:201]
+INFO: [Synth 8-638] synthesizing module 'RegBankv2' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd:50]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Decoder_3_to_8.vhd:34' bound to instance 'Decoder3_8' of component 'Decoder_3_to_8' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Decoder_3_to_8.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (8#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Decoder_3_to_8.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (9#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Reg.vhd:32' bound to instance 'Reg_0' of component 'Reg' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'Reg' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Reg.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (10#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Reg.vhd:42]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Reg.vhd:32' bound to instance 'Reg_1' of component 'Reg' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd:89]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Reg.vhd:32' bound to instance 'Reg_2' of component 'Reg' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd:97]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Reg.vhd:32' bound to instance 'Reg_3' of component 'Reg' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd:105]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Reg.vhd:32' bound to instance 'Reg_4' of component 'Reg' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd:113]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Reg.vhd:32' bound to instance 'Reg_5' of component 'Reg' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd:121]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Reg.vhd:32' bound to instance 'Reg_6' of component 'Reg' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd:129]
+INFO: [Synth 8-3491] module 'Reg' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/Reg.vhd:32' bound to instance 'Reg_7' of component 'Reg' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd:137]
+INFO: [Synth 8-256] done synthesizing module 'RegBankv2' (11#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd:50]
+INFO: [Synth 8-3491] module 'Programme_ROM' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/ROM/Programme_ROM.vhd:33' bound to instance 'programme_rom_0' of component 'Programme_ROM' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd:216]
+INFO: [Synth 8-638] synthesizing module 'Programme_ROM' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/ROM/Programme_ROM.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Programme_ROM' (12#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/ROM/Programme_ROM.vhd:39]
+INFO: [Synth 8-3491] module 'Mux_8_1_4' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_8_1_4.vhd:34' bound to instance 'mux_8_to_4_one' of component 'Mux_8_1_4' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd:221]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_1_4' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_8_1_4.vhd:47]
+INFO: [Synth 8-226] default block is never used [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_8_1_4.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_1_4' (13#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_8_1_4.vhd:47]
+INFO: [Synth 8-3491] module 'Mux_8_1_4' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_8_1_4.vhd:34' bound to instance 'mux_8_to_4_two' of component 'Mux_8_1_4' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd:234]
+INFO: [Synth 8-3491] module 'AddSubUnit' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/AddSubUnit.vhd:32' bound to instance 'add_sub_unit' of component 'AddSubUnit' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd:249]
+INFO: [Synth 8-638] synthesizing module 'AddSubUnit' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/AddSubUnit.vhd:43]
+INFO: [Synth 8-3491] module 'RCA_4' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/RCA_4.vhd:32' bound to instance 'RCA_4_0' of component 'RCA_4' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/AddSubUnit.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'RCA_4' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/RCA_4.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/RCA_4.vhd:54]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/RCA_4.vhd:62]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/RCA_4.vhd:70]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/FA.vhd:34' bound to instance 'FA_3' of component 'FA' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/RCA_4.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'RCA_4' (14#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/RCA_4.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'AddSubUnit' (15#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/Adders/AddSubUnit.vhd:43]
+INFO: [Synth 8-3491] module 'Mux_2_1_4' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_2_1_4.vhd:34' bound to instance 'mux_2_to_4' of component 'Mux_2_1_4' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd:259]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_1_4' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_2_1_4.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_1_4' (16#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/muxes/Mux_2_1_4.vhd:41]
+INFO: [Synth 8-3491] module 'SevenSegDriver' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/SevenSegDriver.vhd:32' bound to instance 'seven_seg_driver' of component 'SevenSegDriver' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd:266]
+INFO: [Synth 8-638] synthesizing module 'SevenSegDriver' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/SevenSegDriver.vhd:42]
+INFO: [Synth 8-3491] module 'LUT_Digit' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Digit.vhd:32' bound to instance 'LUT0' of component 'LUT_Digit' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/SevenSegDriver.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'LUT_Digit' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Digit.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'LUT_Digit' (17#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Digit.vhd:38]
+INFO: [Synth 8-3491] module 'LUT_Sign' declared at 'D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Sign.vhd:34' bound to instance 'LUT1' of component 'LUT_Sign' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/SevenSegDriver.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'LUT_Sign' [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Sign.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'LUT_Sign' (18#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Sign.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'SevenSegDriver' (19#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/imports/Sources/SevenSegmentDriver/SevenSegDriver.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'PROCESSOR' (20#1) [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/sources_1/new/PROCESSOR.vhd:45]
+WARNING: [Synth 8-3331] design SevenSegDriver has unconnected port Address[2]
+WARNING: [Synth 8-3331] design SevenSegDriver has unconnected port Address[1]
+WARNING: [Synth 8-3331] design SevenSegDriver has unconnected port Address[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1405.742 ; gain = 156.023
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1405.742 ; gain = 156.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1405.742 ; gain = 156.023
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
+Finished Parsing XDC File [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1760.145 ; gain = 510.426
+81 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1760.145 ; gain = 510.426
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+[Sun May  5 18:48:56 2024] Launched synth_1...
+Run output will be captured here: D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
+Finished Parsing XDC File [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+report_utilization -file {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/ReportUtilization.txt} -name ReportUtilization
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2210.000 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 2210.000 ; gain = 0.000
+[Sun May  5 18:53:49 2024] Launched impl_1...
+Run output will be captured here: D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.runs/impl_1/runme.log
+file copy -force {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/NanoProcessorBasicWith7Segment.runs/impl_1/PROCESSOR.bit} {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorBasicWith7Segment/BitStreamBasic.bit}
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May  5 18:56:42 2024...

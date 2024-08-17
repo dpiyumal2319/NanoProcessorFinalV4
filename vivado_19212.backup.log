@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun May  5 17:35:38 2024
+# Process ID: 19212
+# Current directory: D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13732 D:\sem2\DigitalDesign\NanoProcessor Submissions\NanoProcessorFinalV4\NanoProcessorFinalV4.xpr
+# Log file: D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/vivado.log
+# Journal file: D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/NanoProcessorFinalV4.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 994.113 ; gain = 231.938
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Sun May  5 17:38:32 2024] Launched synth_1...
+Run output will be captured here: D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/NanoProcessorFinalV4.runs/synth_1/runme.log
+[Sun May  5 17:38:32 2024] Launched impl_1...
+Run output will be captured here: D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/NanoProcessorFinalV4.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 38 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
+Finished Parsing XDC File [D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1453.367 ; gain = 408.805
+report_utilization -file {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/ResourceUtilixation.txt} -name ResourceUtilixation
+report_utilization: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1898.555 ; gain = 0.000
+file copy -force {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/NanoProcessorFinalV4.runs/impl_1/PROCESSOR.bit} {D:/sem2/DigitalDesign/NanoProcessor Submissions/NanoProcessorFinalV4/NanoProcessorFinal.bit}
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May  5 17:46:17 2024...

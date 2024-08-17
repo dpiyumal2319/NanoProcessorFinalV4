@@ -1,0 +1,26 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sim_1/new/TB_PROCESSOR.vhd,1714075810,vhdl,,,,tb_processor,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/Adders/AddSubUnit.vhd,1713938524,vhdl,,,,addsubunit,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/Adders/FA.vhd,1707816806,vhdl,,,,fa,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/Adders/HA.vhd,1707814000,vhdl,,,,ha,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/Adders/PCAdder.vhd,1713619412,vhdl,,,,pcadder,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/Adders/RCA_4.vhd,1713822742,vhdl,,,,rca_4,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/Clk/Slow_Clk.vhd,1714081914,vhdl,,,,slow_clk,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/InstructionDecoder/InstructionDecoder.vhd,1714035696,vhdl,,,,instructiondecoder,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/PC/ProgramCounter.vhd,1714032782,vhdl,,,,programcounter,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/ROM/Programme_ROM.vhd,1714048252,vhdl,,,,programme_rom,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Address.vhd,1713991234,vhdl,,,,lut_address,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Digit.vhd,1713991168,vhdl,,,,lut_digit,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/SevenSegmentDriver/LUT_Sign.vhd,1713994212,vhdl,,,,lut_sign,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/SevenSegmentDriver/SevenSegDriver.vhd,1714079910,vhdl,,,,sevensegdriver,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/muxes/Mux_2_1_3.vhd,1713626170,vhdl,,,,mux_2_1_3,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/muxes/Mux_2_1_4.vhd,1713640176,vhdl,,,,mux_2_1_4,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/muxes/Mux_8_1_4.vhd,1713640176,vhdl,,,,mux_8_1_4,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/regbank/Decoder_2_to_4.vhd,1713108410,vhdl,,,,decoder_2_to_4,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/regbank/Decoder_3_to_8.vhd,1713108410,vhdl,,,,decoder_3_to_8,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/regbank/Reg.vhd,1714021222,vhdl,,,,reg,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/imports/Sources/regbank/RegBankv2.vhd,1713821046,vhdl,,,,regbankv2,,,,,,,,
+D:/NanoProcessorFinalV4/NanoProcessorFinalV4.srcs/sources_1/new/PROCESSOR.vhd,1714035816,vhdl,,,,processor,,,,,,,,
